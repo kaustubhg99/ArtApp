@@ -8,7 +8,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import {Routes, RouterModule} from '@angular/router';
 import { HomeComponent } from './home/home.component';
-import { ArtofWeekComponent } from './home/artof-week/artof-week.component'
+import { ArtofWeekComponent } from './home/artof-week/artof-week.component';
+import { BlogCardsComponent } from './blog-cards/blog-cards.component'
 const appRoutes:   Routes = [
   {path: '', component:HomeComponent},
   {path: 'gallery', component:GalleryComponent}
@@ -21,7 +22,8 @@ const appRoutes:   Routes = [
     AboutUsComponent,
     ContactUsComponent,
     HomeComponent,
-    ArtofWeekComponent
+    ArtofWeekComponent,
+    BlogCardsComponent
   ],
   imports: [
     BrowserModule,
