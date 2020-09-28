@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+.bg-color {
+    background-color: #EDF2EF;
+}
+
+.bg-button-color {
+    background-color: #F97068;
+}
+.title-color {
+    color: #D1D646;
+}
