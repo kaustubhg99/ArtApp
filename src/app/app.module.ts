@@ -7,7 +7,8 @@ import { GalleryComponent } from './gallery/gallery.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import {Routes, RouterModule} from '@angular/router';
-import { HomeComponent } from './home/home.component'
+import { HomeComponent } from './home/home.component';
+import { ArtofWeekComponent } from './home/artof-week/artof-week.component'
 const appRoutes:   Routes = [
   {path: '', component:HomeComponent},
   {path: 'gallery', component:GalleryComponent}
@@ -19,7 +20,8 @@ const appRoutes:   Routes = [
     GalleryComponent,
     AboutUsComponent,
     ContactUsComponent,
-    HomeComponent
+    HomeComponent,
+    ArtofWeekComponent
   ],
   imports: [
     BrowserModule,
