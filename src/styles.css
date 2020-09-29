@@ -1,11 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
 .bg-color {
-    background-color: #EDF2EF;
+    background-color: #ffffff;
 }
 
 .bg-button-color {
-    background-color: #F97068;
+    background-color: #FF550B;
+    color: #EDF2EF;
+    border-radius: 50px;
 }
 .title-color {
-    color: #D1D646;
+    
+    color: #FF550B;
+}
+
+.bg-button-color2{
+    background-color: #E8E8E8;
+    color: #FF550B;
+    border-radius: 50px;
+}
+
+.bg-button-color2:hover{
+    background-color: #FF550B;
+    color: #EDF2EF;
 }
