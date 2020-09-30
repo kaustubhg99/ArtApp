@@ -10,7 +10,8 @@ import {Routes, RouterModule} from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { ArtofWeekComponent } from './home/artof-week/artof-week.component';
 import { BlogCardsComponent } from './blog-cards/blog-cards.component';
-import { HomeGalleryComponent } from './home-gallery/home-gallery.component'
+import { HomeGalleryComponent } from './home-gallery/home-gallery.component';
+import { FooterComponent } from './footer/footer.component'
 const appRoutes:   Routes = [
   {path: '', component:HomeComponent},
   {path: 'gallery', component:GalleryComponent}
@@ -25,7 +26,8 @@ const appRoutes:   Routes = [
     HomeComponent,
     ArtofWeekComponent,
     BlogCardsComponent,
-    HomeGalleryComponent
+    HomeGalleryComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
